@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.heading{
+    font-size: xx-large;
+    color: #043e0b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bolder;
+}
+
+.heading:hover {
+    color: #14f41b;
+  }
+
+.btn {
+    background-color: #043e0b;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #14f41b;
+  }
+
+  .txt-ar{
+      width:100% ;
+      height:250px;
+      font-size: xx-large;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      border: none;
+      color: black;
+  }
+  .txt-ar:focus{
+      background-color: #FFFFFF;
+      transition: background-color 0.3s ease-in-out;
+  }
+  
